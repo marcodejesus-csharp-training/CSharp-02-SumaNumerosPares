@@ -10,6 +10,7 @@ namespace SumaNumerosPares
             int suma = 2;
 
             while(numero <= 10){
+                Console.WriteLine("Numero + Suma: " + numero + " + " + suma + " = " + (numero+suma));
                 suma = suma + numero;
                 numero = numero + 2;
             }
